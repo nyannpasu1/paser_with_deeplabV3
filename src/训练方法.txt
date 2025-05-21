@@ -1,0 +1,3 @@
+训练  cd /workspaces/paser && PYTHONPATH=/workspaces/paser/src python3 src/pretrain.py +experiment=pretrain_seg_deeplabv3
+
+预测  python src/predict.py --config src/conf/pretrain_seg_deeplabv3.yaml --checkpoint outputs/2025-05-21/19-30-41/deeplabv3_model_checkpoint_best_val.pt --input_dir data/battery_2/validation_images --output_dir data/battery_2/validation_pred

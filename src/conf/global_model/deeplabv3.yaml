@@ -1,0 +1,13 @@
+# DeepLabV3 配置示例
+name: deeplabv3
+n_channels: 1
+n_classes: 3
+backbone: resnet50
+pretrained: true
+bilinear: true
+weights:
+  - 0.96275112
+  - 0.8969029
+  - 0.14034598
+checkpoint: null
+device: cuda:0
