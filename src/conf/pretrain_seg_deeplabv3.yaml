@@ -11,7 +11,7 @@ model:
     - 0.8969029
     - 0.14034598
   checkpoint: null
-  device: cpu
+  device: cuda:0
 dataset:
   name: battery_2
   path: /workspaces/paser/data/battery_2
