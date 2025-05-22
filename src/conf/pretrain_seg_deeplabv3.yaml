@@ -41,4 +41,5 @@ wandb:
 save_code_snapshot: false
 noisy_dataset: false
 model_type: basic  # 可选值: basic, global_distill
-device: cpu
+device: cuda:0
+
